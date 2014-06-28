@@ -2,6 +2,9 @@ package com.dell.train;
 
 import java.util.Scanner;
 
+//important thing to note here is the range of 1 byte and the total number of values it can store.
+//if you run the program, you will come to know that 1 byte can store a maximum of 256 "values"
+//i.e range will be -128 to +127 (including 0). Hence understood that datatypes are signed in Java.
 public class CalculateRangeOfBytes {
 
 	public static void main(String[] args) {
