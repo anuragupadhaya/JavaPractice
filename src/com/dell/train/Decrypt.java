@@ -12,7 +12,7 @@ import java.security.*;
  * ~/.sqldeveloper/system2.1.1.64.39/o.jdeveloper.db.connection
  * .11.1.1.2.36.55.30/connections.xml
  */
-public class decrypt {
+public class Decrypt {
     public static byte[] decryptPassword(byte[] result)
             throws GeneralSecurityException {
         byte constant = result[0];
