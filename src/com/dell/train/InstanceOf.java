@@ -1,5 +1,9 @@
 package com.dell.train;
+
 public class InstanceOf {
+	static {
+		System.out.println("Static code block");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
