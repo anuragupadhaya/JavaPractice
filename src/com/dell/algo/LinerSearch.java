@@ -1,4 +1,4 @@
-package com.dell.train;
+package com.dell.algo;
 
 public class LinerSearch {
 	public static boolean sequentialSearch(int[] array, int a) {

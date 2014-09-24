@@ -1,4 +1,4 @@
-package com.dell.train;
+package com.dell.algo;
 
 public class BubbleSort {
 	private boolean swapped = true;

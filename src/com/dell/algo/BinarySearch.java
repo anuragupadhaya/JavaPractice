@@ -1,4 +1,4 @@
-package com.dell.train;
+package com.dell.algo;
 
 public class BinarySearch {
 	public static boolean binarySearch(int[] array, int v) {
