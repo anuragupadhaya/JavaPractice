@@ -1,4 +1,4 @@
-package com.dell.train;
+package com.dell.series;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Palindrome {
 		for (int i = original.length() - 1; i >= 0; i--) {
 			reverse = reverse + original.charAt(i);
 		}
-		if (reverse.equals(original)) {
+		if (reverse.equalsIgnoreCase(original)) {
 			System.out.println("String is Palindrome");
 		} else
 			System.out.println("String is not Palindrome");

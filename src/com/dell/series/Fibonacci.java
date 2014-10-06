@@ -1,4 +1,4 @@
-package com.dell.train;
+package com.dell.series;
 
 public class Fibonacci {
 
