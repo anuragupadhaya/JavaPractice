@@ -11,7 +11,7 @@ public class BinarySearch {
 			if (v < array[middle]) {
 				high = middle - 1;
 			} else {
-				low = middle + 1;lfdskjglkdjgkd
+				low = middle + 1;
 			}
 		}
 		return false;
